@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TheFUB.xcodeproj">
+      location = "self:/Users/gloomya/Documents/trios/ios-dev/TheFUB/GRUB.xcodeproj">
    </FileRef>
 </Workspace>

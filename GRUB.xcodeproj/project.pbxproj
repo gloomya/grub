@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A85326FC2408B27500FA7A0F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A85326FB2408B27500FA7A0F /* icon.png */; };
+		A8A8E8692409DA9200A9620B /* tenor.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8A8E8682409DA9200A9620B /* tenor.gif */; };
+		A8A8E86B2409DC3E00A9620B /* preloader.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8A8E86A2409DC3E00A9620B /* preloader.gif */; };
 		A8E421D12400A6CD00FD347D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E421D02400A6CD00FD347D /* AppDelegate.swift */; };
 		A8E421D32400A6CD00FD347D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E421D22400A6CD00FD347D /* SceneDelegate.swift */; };
 		A8E421D52400A6CD00FD347D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E421D42400A6CD00FD347D /* ViewController.swift */; };
@@ -35,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A8E421CD2400A6CD00FD347D /* TheFUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheFUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85326FB2408B27500FA7A0F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A8A8E8682409DA9200A9620B /* tenor.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tenor.gif; sourceTree = "<group>"; };
+		A8A8E86A2409DC3E00A9620B /* preloader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preloader.gif; sourceTree = "<group>"; };
+		A8E421CD2400A6CD00FD347D /* GRUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E421D02400A6CD00FD347D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8E421D22400A6CD00FD347D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A8E421D42400A6CD00FD347D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +49,10 @@
 		A8E421D92400A6D000FD347D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8E421DC2400A6D000FD347D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8E421DE2400A6D000FD347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8E421E32400A6D000FD347D /* TheFUBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheFUBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E421E32400A6D000FD347D /* GRUBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRUBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E421E72400A6D000FD347D /* TheFUBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFUBTests.swift; sourceTree = "<group>"; };
 		A8E421E92400A6D000FD347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8E421EE2400A6D000FD347D /* TheFUBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheFUBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E421EE2400A6D000FD347D /* GRUBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRUBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E421F22400A6D000FD347D /* TheFUBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFUBUITests.swift; sourceTree = "<group>"; };
 		A8E421F42400A6D000FD347D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +95,9 @@
 		A8E421CE2400A6CD00FD347D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8E421CD2400A6CD00FD347D /* TheFUB.app */,
-				A8E421E32400A6D000FD347D /* TheFUBTests.xctest */,
-				A8E421EE2400A6D000FD347D /* TheFUBUITests.xctest */,
+				A8E421CD2400A6CD00FD347D /* GRUB.app */,
+				A8E421E32400A6D000FD347D /* GRUBTests.xctest */,
+				A8E421EE2400A6D000FD347D /* GRUBUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +110,9 @@
 				A8E421D42400A6CD00FD347D /* ViewController.swift */,
 				A8E421D62400A6CD00FD347D /* Main.storyboard */,
 				A8E421D92400A6D000FD347D /* Assets.xcassets */,
+				A8A8E8682409DA9200A9620B /* tenor.gif */,
+				A8A8E86A2409DC3E00A9620B /* preloader.gif */,
+				A85326FB2408B27500FA7A0F /* icon.png */,
 				A8E421DB2400A6D000FD347D /* LaunchScreen.storyboard */,
 				A8E421DE2400A6D000FD347D /* Info.plist */,
 			);
@@ -131,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8E421CC2400A6CD00FD347D /* TheFUB */ = {
+		A8E421CC2400A6CD00FD347D /* GRUB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E421F72400A6D000FD347D /* Build configuration list for PBXNativeTarget "TheFUB" */;
+			buildConfigurationList = A8E421F72400A6D000FD347D /* Build configuration list for PBXNativeTarget "GRUB" */;
 			buildPhases = (
 				A8E421C92400A6CD00FD347D /* Sources */,
 				A8E421CA2400A6CD00FD347D /* Frameworks */,
@@ -143,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = TheFUB;
+			name = GRUB;
 			productName = TheFUB;
-			productReference = A8E421CD2400A6CD00FD347D /* TheFUB.app */;
+			productReference = A8E421CD2400A6CD00FD347D /* GRUB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A8E421E22400A6D000FD347D /* TheFUBTests */ = {
+		A8E421E22400A6D000FD347D /* GRUBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E421FA2400A6D000FD347D /* Build configuration list for PBXNativeTarget "TheFUBTests" */;
+			buildConfigurationList = A8E421FA2400A6D000FD347D /* Build configuration list for PBXNativeTarget "GRUBTests" */;
 			buildPhases = (
 				A8E421DF2400A6D000FD347D /* Sources */,
 				A8E421E02400A6D000FD347D /* Frameworks */,
@@ -161,14 +170,14 @@
 			dependencies = (
 				A8E421E52400A6D000FD347D /* PBXTargetDependency */,
 			);
-			name = TheFUBTests;
+			name = GRUBTests;
 			productName = TheFUBTests;
-			productReference = A8E421E32400A6D000FD347D /* TheFUBTests.xctest */;
+			productReference = A8E421E32400A6D000FD347D /* GRUBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A8E421ED2400A6D000FD347D /* TheFUBUITests */ = {
+		A8E421ED2400A6D000FD347D /* GRUBUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E421FD2400A6D000FD347D /* Build configuration list for PBXNativeTarget "TheFUBUITests" */;
+			buildConfigurationList = A8E421FD2400A6D000FD347D /* Build configuration list for PBXNativeTarget "GRUBUITests" */;
 			buildPhases = (
 				A8E421EA2400A6D000FD347D /* Sources */,
 				A8E421EB2400A6D000FD347D /* Frameworks */,
@@ -179,9 +188,9 @@
 			dependencies = (
 				A8E421F02400A6D000FD347D /* PBXTargetDependency */,
 			);
-			name = TheFUBUITests;
+			name = GRUBUITests;
 			productName = TheFUBUITests;
-			productReference = A8E421EE2400A6D000FD347D /* TheFUBUITests.xctest */;
+			productReference = A8E421EE2400A6D000FD347D /* GRUBUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A8E421C82400A6CD00FD347D /* Build configuration list for PBXProject "TheFUB" */;
+			buildConfigurationList = A8E421C82400A6CD00FD347D /* Build configuration list for PBXProject "GRUB" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8E421CC2400A6CD00FD347D /* TheFUB */,
-				A8E421E22400A6D000FD347D /* TheFUBTests */,
-				A8E421ED2400A6D000FD347D /* TheFUBUITests */,
+				A8E421CC2400A6CD00FD347D /* GRUB */,
+				A8E421E22400A6D000FD347D /* GRUBTests */,
+				A8E421ED2400A6D000FD347D /* GRUBUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85326FC2408B27500FA7A0F /* icon.png in Resources */,
 				A8E421DD2400A6D000FD347D /* LaunchScreen.storyboard in Resources */,
+				A8A8E8692409DA9200A9620B /* tenor.gif in Resources */,
 				A8E421DA2400A6D000FD347D /* Assets.xcassets in Resources */,
 				A8E421D82400A6CD00FD347D /* Main.storyboard in Resources */,
+				A8A8E86B2409DC3E00A9620B /* preloader.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		A8E421E52400A6D000FD347D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A8E421CC2400A6CD00FD347D /* TheFUB */;
+			target = A8E421CC2400A6CD00FD347D /* GRUB */;
 			targetProxy = A8E421E42400A6D000FD347D /* PBXContainerItemProxy */;
 		};
 		A8E421F02400A6D000FD347D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A8E421CC2400A6CD00FD347D /* TheFUB */;
+			target = A8E421CC2400A6CD00FD347D /* GRUB */;
 			targetProxy = A8E421EF2400A6D000FD347D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,13 +447,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US4QG2UX32;
 				INFOPLIST_FILE = TheFUB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = avolodkovich.TheFUB;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = avolodkovich.GRUB;
+				PRODUCT_NAME = GRUB;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,13 +465,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US4QG2UX32;
 				INFOPLIST_FILE = TheFUB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = avolodkovich.TheFUB;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = avolodkovich.GRUB;
+				PRODUCT_NAME = GRUB;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -481,7 +495,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheFUB.app/TheFUB";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRUB.app/GRUB";
 			};
 			name = Debug;
 		};
@@ -502,7 +516,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheFUB.app/TheFUB";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRUB.app/GRUB";
 			};
 			name = Release;
 		};
@@ -547,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8E421C82400A6CD00FD347D /* Build configuration list for PBXProject "TheFUB" */ = {
+		A8E421C82400A6CD00FD347D /* Build configuration list for PBXProject "GRUB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8E421F52400A6D000FD347D /* Debug */,
@@ -556,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E421F72400A6D000FD347D /* Build configuration list for PBXNativeTarget "TheFUB" */ = {
+		A8E421F72400A6D000FD347D /* Build configuration list for PBXNativeTarget "GRUB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8E421F82400A6D000FD347D /* Debug */,
@@ -565,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E421FA2400A6D000FD347D /* Build configuration list for PBXNativeTarget "TheFUBTests" */ = {
+		A8E421FA2400A6D000FD347D /* Build configuration list for PBXNativeTarget "GRUBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8E421FB2400A6D000FD347D /* Debug */,
@@ -574,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E421FD2400A6D000FD347D /* Build configuration list for PBXNativeTarget "TheFUBUITests" */ = {
+		A8E421FD2400A6D000FD347D /* Build configuration list for PBXNativeTarget "GRUBUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8E421FE2400A6D000FD347D /* Debug */,
